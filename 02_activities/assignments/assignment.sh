@@ -13,7 +13,7 @@ if [ -d newproject ]; then
   echo "Recreating the newproject directory"
   rm -rf newproject
 fi
-mkdir newproject
+mkdir newproject 
 cd newproject
 
 mkdir analysis output
@@ -28,7 +28,7 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
-mkdir ./data  
+mkdir ./data   
 
 # 2. Move the ./rawdata directory to ./data/raw (eg. move it into ./data and rename it to raw)
 mv ./rawdata ./data/raw
